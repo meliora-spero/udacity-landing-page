@@ -57,7 +57,6 @@ for (let i = 0; i < scrolls.length; i++) {
     } else {
       scrolls[i].classList.remove('your-active-class')
       menuLink[i].classList.remove('active')
-
     }
   });
 }
