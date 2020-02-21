@@ -118,7 +118,7 @@ for (let i = 0; i < headerClick.length; i++) {
   });
 }
 
-// opacity change
+// opacity change if user is no longer scrolling
 const noLongerScrolling = (callback) => {
 	if (!callback || typeof callback !== 'function') return;
 	let isScrolling;
@@ -165,6 +165,6 @@ const children = elements.childNodes
 console.log(divsA[0].firstElementChild);
 
 // returns element’s position within the viewport
-const navbar__menu = document.querySelector('.navbar__menu');
-const bounding = navbar__menu.getBoundingClientRect();
+const navbarMenu = document.querySelector('.navbar__menu');
+const bounding = navbarMenu.getBoundingClientRect();
 console.log('element’s position', bounding);
