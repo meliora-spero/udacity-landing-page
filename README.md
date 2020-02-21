@@ -74,7 +74,7 @@ It should be clear which section is being viewed while scrolling through the pag
 
 👇
 
-![Scrolling through and clicking](https://i.imgur.com/VL76fml.gif)
+![Scrolling through and clicking](https://i.imgur.com/98JsPTO.gif)
 
 #### Scroll to Anchor
 
