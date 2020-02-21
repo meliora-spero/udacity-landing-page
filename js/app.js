@@ -132,7 +132,7 @@ const noLongerScrolling = (callback) => {
 const menuHide = document.querySelector('.navbar__menu');
 noLongerScrolling(() => {
   menuHide.style.opacity = '0.1';
-  menuHide.style.transition = "all 2s";
+  menuHide.style.transition = 'all 2s';
 }
 );
 
