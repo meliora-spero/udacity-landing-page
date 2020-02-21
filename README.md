@@ -19,6 +19,7 @@ To complete the project it was required to modify mainly the ```js/app.js``` fil
 * Accessing the DOM: [querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector), [querySelectorAll()](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll), getElementbyId(), getElementsByClassName(), etc.
 * [Introduction to browser events](https://javascript.info/introduction-browser-events)
 * [addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+* [getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
 * [Why is event delegation better?](https://gomakethings.com/why-is-javascript-event-delegation-better-than-attaching-events-to-each-element/)
 * The [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className) & [classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) properties
 * [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
