@@ -72,6 +72,10 @@ Navigation is built dynamically as an unordered list.
 
 It should be clear which section is being viewed while scrolling through the page.
 
+👇
+
+![Scrolling through and clicking](https://i.imgur.com/VL76fml.gif[/img)
+
 #### Scroll to Anchor
 
 When clicking an item from the navigation menu, the link should scroll to the appropriate section (rather than giving the default jump).
