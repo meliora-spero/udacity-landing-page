@@ -29,8 +29,10 @@ To complete the project it was required to modify mainly the ```js/app.js``` fil
 * [How to get all siblings of an element](https://stackoverflow.com/questions/4378784/how-to-find-all-siblings-of-currently-selected-object)
 * [How to test if an element is in the viewport](https://gomakethings.com/how-to-test-if-an-element-is-in-the-viewport-with-vanilla-javascript/)
 * [Common beginner's mistakes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Howto)
+* [Clean Code](https://github.com/ryanmcdermott/clean-code-javascript)
 * [A FEW PRINCIPLES OF CLEAN CODE](https://x-team.com/blog/principles-clean-code/)
 * [Udacity JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
+* [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/)
 * [README Renderer](https://www.makeareadme.com/)
 * [A curated list of awesome READMEs](https://github.com/matiassingers/awesome-readme)
 
