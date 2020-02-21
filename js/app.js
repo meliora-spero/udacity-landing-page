@@ -76,7 +76,7 @@ attr.forEach((elem, i) => {
 
 // hamburger menu click
 const burgerMenu = document.querySelector('.navbar__menu__burger');
-burgerMenu.addEventListener('click', function() {
+burgerMenu.addEventListener('click', () => {
   let burgerBar = document.querySelector('.navbar__menu');
   if (burgerBar.style.display === 'block') {
     burgerBar.style.display = 'none';
@@ -90,7 +90,7 @@ burgerMenu.addEventListener('click', function() {
 // in two steps
 
 // (1) siblings of h2
-const allSiblings = function(elem) {
+const allSiblings = (elem) => {
   let siblings = [];
   let sibling = elem.parentNode.firstChild;
   // loop through each sibling 
@@ -107,7 +107,7 @@ const allSiblings = function(elem) {
 const headerClick = document.querySelectorAll('h2');
 for (let i = 0; i < headerClick.length; i++) {
   const elementSiblings = allSiblings(headerClick[i]);
-  headerClick[i].addEventListener('click', function() {
+  headerClick[i].addEventListener('click', () => {
     for (const elementSibling of elementSiblings) {
       if (elementSibling.style.display === 'none') {
         elementSibling.style.display = 'block';
@@ -117,6 +117,33 @@ for (let i = 0; i < headerClick.length; i++) {
     }
   });
 }
+
+// opacity change
+const noLongerScrolling = (callback) => {
+	if (!callback || typeof callback !== 'function') return;
+	let isScrolling;
+	window.addEventListener('scroll', (event) => {
+		window.clearTimeout(isScrolling);
+		isScrolling = setTimeout(() => {
+      callback();
+    }, 3000);
+	}, false);
+};
+
+const menuHide = document.querySelector('.navbar__menu');
+noLongerScrolling(() => {
+  menuHide.style.opacity = '0.1';
+  menuHide.style.transition = "all 2s";
+}
+);
+
+const eventsMenu = (event) => {
+  menuHide.style.opacity = '1';
+};
+
+window.addEventListener('scroll', eventsMenu);
+window.addEventListener('mouseover', eventsMenu);
+
 
 // HELPER
 
