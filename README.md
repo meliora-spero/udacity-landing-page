@@ -28,7 +28,8 @@ To complete the project it was required to modify mainly the ```js/app.js``` fil
 * [How to add active class to current element?](https://www.w3schools.com/howto/howto_js_active_element.asp)
 * [How to get all siblings of an element?](https://stackoverflow.com/questions/4378784/how-to-find-all-siblings-of-currently-selected-object)
 * [How to test if an element is in the viewport?](https://gomakethings.com/how-to-test-if-an-element-is-in-the-viewport-with-vanilla-javascript/)
-* [IntersectionObserver](https://www.smashingmagazine.com/2018/01/deferring-lazy-loading-intersection-observer-api/)
+* [How to detect when a visitor has stopped scrolling?](https://gomakethings.com/detecting-when-a-visitor-has-stopped-scrolling-with-vanilla-javascript/)
+* [=> vs. function](https://medium.com/the-non-traditional-developer/arrow-functions-vs-traditional-functions-in-javascript-8ff1a48ede12)
 * [Common beginner's mistakes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Howto)
 * [Clean Code](https://github.com/ryanmcdermott/clean-code-javascript)
 * [A FEW PRINCIPLES OF CLEAN CODE](https://x-team.com/blog/principles-clean-code/)
@@ -36,6 +37,7 @@ To complete the project it was required to modify mainly the ```js/app.js``` fil
 * [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/)
 * [README Renderer](https://www.makeareadme.com/)
 * [A curated list of awesome READMEs](https://github.com/matiassingers/awesome-readme)
+* [IntersectionObserver](https://www.smashingmagazine.com/2018/01/deferring-lazy-loading-intersection-observer-api/)
 
 ## Details 
 
@@ -91,9 +93,10 @@ Code is formatted with consistent, logical, and easy-to-read formatting as descr
 
 ## Optional  
 
-1. Active state to the navigation items.
-2. Collapsible/hideable section (click on heading).
-3. Hamburger navigation bar for smaller screens.
+1. Hamburger navigation bar for smaller screens.
+2. Active state to the navigation items.
+3. Collapsible/hideable section (click on heading).
+4. Navigation bar changes opacity while the user is no longer scrolling (setTimeout() method).
 
 ## Thanks
 
