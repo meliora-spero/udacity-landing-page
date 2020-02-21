@@ -1,8 +1,6 @@
 /* JS IS <3 */
 
 
-
-
 // adds anchor class for nav
 const addClassesSections = document.getElementsByTagName('section');
 for (let i = 0; i < addClassesSections.length; i++) {
@@ -10,8 +8,9 @@ for (let i = 0; i < addClassesSections.length; i++) {
 }
 
 // calls for sections by class & returns NodeList
-// loop: creats <li>, calls for data attribute (data-nav) & adds link
 const nodeList = document.getElementsByClassName('anchor-for-nav');
+
+// loop: creats <li>, calls for data attribute (data-nav) & adds link
 const ul = document.getElementById('navbar__list');
 for (let i = 0; i < nodeList.length; i++) {
   let sectionLink = nodeList[i].getAttribute('data-nav');
@@ -20,18 +19,16 @@ for (let i = 0; i < nodeList.length; i++) {
   ul.appendChild(li);
 }
 
-// adds class, ID & scroll to newly created <a>
-const addLinkStyle = document.querySelectorAll('a');
-for (let i = 0; i < addLinkStyle.length; i++) {
-  addLinkStyle[i].classList.add('menu__link')
-  addLinkStyle[i].setAttribute('id', 'section' + [i+1]);
+// adds class, ID & scroll to new <a>
+const menuLink = document.querySelectorAll('li a');
+for (let i = 0; i < menuLink.length; i++) {
+  menuLink[i].classList.add('menu__link')
+  menuLink[i].setAttribute('id', 'section' + [i+1]);
 }
-const anchorScrollSmooth = document.getElementsByClassName('anchor-for-nav');
-for (let i = 0; i < anchorScrollSmooth.length; i++) {
-  let topElement = anchorScrollSmooth[i];
-  let linkScroll = addLinkStyle[i]; // scroll
-  const top = topElement.getBoundingClientRect().top + window.pageYOffset
-  linkScroll.addEventListener('click', (elem) => {
+
+for (let i = 0; i < nodeList.length; i++) {
+  const top = nodeList[i].getBoundingClientRect().top + window.pageYOffset
+  menuLink[i].addEventListener('click', (elem) => {
     elem.preventDefault();
     let scrollSet = {
       top: top,
@@ -42,7 +39,7 @@ for (let i = 0; i < anchorScrollSmooth.length; i++) {
   });
 }
 
-// active 
+// adds active & scroll
 const windowBounding = (element) => {
   const distance = element.getBoundingClientRect();
   return (
@@ -51,21 +48,21 @@ const windowBounding = (element) => {
     distance.bottom <= window.innerHeight
   );
 }
-const addScrolls = document.querySelectorAll('section');
-for (let i = 0; i < addScrolls.length; i++) {
+const scrolls = document.querySelectorAll('section');
+for (let i = 0; i < scrolls.length; i++) {
   window.addEventListener('scroll', () => {
-    if (windowBounding(addScrolls[i])) {
-      addScrolls[i].classList.add('your-active-class')
-      addLinkStyle[i].classList.add('active')
+    if (windowBounding(scrolls[i])) {
+      scrolls[i].classList.add('your-active-class')
+      menuLink[i].classList.add('active')
     } else {
-      addScrolls[i].classList.remove('your-active-class')
-      addLinkStyle[i].classList.remove('active')
+      scrolls[i].classList.remove('your-active-class')
+      menuLink[i].classList.remove('active')
 
     }
   });
 }
 
-// adds attribute to <li> UNUSED
+// adds attribute to <li> //UNUSED BUT FUN//
 const attr = document.querySelectorAll('li');
 for (let i = 0; i < attr.length; i++) {
   attr[i].setAttribute('data-section', ''); // adds empty data-section
@@ -79,7 +76,7 @@ attr.forEach((elem, i) => {
 
 // hamburger menu click
 const burgerMenu = document.querySelector('.navbar__menu__burger');
-burgerMenu.onclick = function burger() {
+burgerMenu.addEventListener('click', function() {
   let burgerBar = document.querySelector('.navbar__menu');
   if (burgerBar.style.display === 'block') {
     burgerBar.style.display = 'none';
@@ -87,8 +84,10 @@ burgerMenu.onclick = function burger() {
     burgerBar.style.display = 'block';
   }
 }
+);
 
 // collapsible/hideable section 
+// in two steps
 
 // (1) siblings of h2
 const allSiblings = function(elem) {
@@ -123,19 +122,19 @@ for (let i = 0; i < headerClick.length; i++) {
 
 const divsA = document.querySelectorAll('.landing__container');
 for (let i = 0; i < divsA.length; i++)
-  console.log(divsA[i]) // returns divs
+  console.log(divsA[i]); // returns divs
 
 const elements = document.querySelectorAll('.landing__container');
 for (const elem of elements)
-  console.log(elem.children) // returns HTMLCollection
+  console.log(elem.children); // returns HTMLCollection
 
-console.log(divsA)
-console.log(elements) // returns NodeList
+console.log(divsA);
+console.log(elements); // returns NodeList
 
-console.log(divsA[0].innerHTML)
-console.log(elements[0].innerHTML)
+console.log(divsA[0].innerHTML);
+console.log(elements[0].innerHTML);
 
-const children = elements.childNodes;
+const children = elements.childNodes
 console.log(divsA[0].firstElementChild);
 
 // returns element’s position within the viewport
