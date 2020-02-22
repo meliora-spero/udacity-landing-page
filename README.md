@@ -31,6 +31,7 @@ To complete the project it was required to modify mainly the ```js/app.js``` fil
 * [How to test if an element is in the viewport?](https://gomakethings.com/how-to-test-if-an-element-is-in-the-viewport-with-vanilla-javascript/)
 * [How to detect when a visitor has stopped scrolling?](https://gomakethings.com/detecting-when-a-visitor-has-stopped-scrolling-with-vanilla-javascript/)
 * [=> vs function](https://medium.com/the-non-traditional-developer/arrow-functions-vs-traditional-functions-in-javascript-8ff1a48ede12)
+* [Functions — Understanding the Basics](https://codeburst.io/javascript-functions-understanding-the-basics-207dbf42ed99)
 * [Common beginner's mistakes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Howto)
 * [Clean Code](https://github.com/ryanmcdermott/clean-code-javascript)
 * [A FEW PRINCIPLES OF CLEAN CODE](https://x-team.com/blog/principles-clean-code/)
