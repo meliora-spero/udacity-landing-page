@@ -21,6 +21,7 @@ To complete the project it was required to modify mainly the ```js/app.js``` fil
 * [Introduction to browser events](https://javascript.info/introduction-browser-events)
 * [addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 * [getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
+* [scrollTo()](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
 * [Why is event delegation better?](https://gomakethings.com/why-is-javascript-event-delegation-better-than-attaching-events-to-each-element/)
 * The [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className) & [classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) properties
 * [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
