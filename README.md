@@ -46,7 +46,7 @@ To complete the project it was required to modify mainly the ```js/app.js``` fil
 
 ### Interface and Architecture
 
-The project should have a structure like the one shown below. All files shown must be present and the ```app.js``` must successfully render a home page with clear design and functionality added when ```index.html``` is loaded in the browser. No errors should display in console.
+> The project should have a structure like the one shown below. All files shown must be present and the ```app.js``` must successfully render a home page with clear design and functionality added when ```index.html``` is loaded in the browser. No errors should display in console.
 
 ```
 css
@@ -58,7 +58,7 @@ README.md
 ```
 #### Usability
 
-All features are usable across modern desktop, tablet, and phone browsers.
+All features are usable across modern desktop, tablet, and phone browsers. Hamburger navigation bar* appears on smaller screens.
 
 #### Styling
 
@@ -66,7 +66,7 @@ Styling has been added for active states.
 
 #### HTML Structure
 
-There are at least 4 sections that have been added to the page.
+There are at least 4 sections that have been added to the page. Sections are collapsible/hideable with a click on their headings*.
 
 ### Landing Page Behavior
 
@@ -74,21 +74,21 @@ There are at least 4 sections that have been added to the page.
 
 Navigation is built dynamically as an unordered list.
 
-#### Section Active State
+#### Section & Navigation Active State
 
-It should be clear which section is being viewed while scrolling through the page.
+It is clear which section and navigation item* are being viewed while scrolling through the page.
 
 👇
 
 ![Scrolling through and clicking](https://i.imgur.com/98JsPTO.gif)
 
-#### Scroll to Anchor
+#### Scroll 
 
-When clicking an item from the navigation menu, the link should scroll to the appropriate section (rather than giving the default jump).
+When clicking an item from the navigation menu, the link scrolls to the appropriate section (rather than giving the default jump). Navigation bar changes opacity while the user is no longer scrolling*.
 
 ### Documentation
 
-The ```README.md``` file should have non-default text in it that is specific to this project. It doesn’t have to be thorough, but should have some basic information, and use correct markdown.
+The ```README.md``` file has non-default text in it that is specific to this project and uses correct markdown.
 
 #### Code Quality & Comments
 
@@ -96,10 +96,7 @@ Code is formatted with consistent, logical, and easy-to-read formatting as descr
 
 ## Optional  
 
-1. Hamburger navigation bar for smaller screens.
-2. Active state to the navigation items.
-3. Collapsible/hideable section (click on heading).
-4. Navigation bar changes opacity while the user is no longer scrolling (setTimeout() method).
+Marked with * are suggested extras, which were added to make this project stand out.
 
 ## Thanks
 
