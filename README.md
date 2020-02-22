@@ -20,8 +20,6 @@ To complete the project it was required to modify mainly the ```js/app.js``` fil
 * [HTMLCollection vs NodeList](https://medium.com/@layne_celeste/htmlcollection-vs-nodelist-4b83e3a4fb4b)
 * [Introduction to browser events](https://javascript.info/introduction-browser-events)
 * [addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
-* [getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
-* [scrollTo()](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
 * [Why is event delegation better?](https://gomakethings.com/why-is-javascript-event-delegation-better-than-attaching-events-to-each-element/)
 * The [className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className) & [classList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) properties
 * [innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
@@ -31,6 +29,8 @@ To complete the project it was required to modify mainly the ```js/app.js``` fil
 * [How to get all siblings of an element?](https://stackoverflow.com/questions/4378784/how-to-find-all-siblings-of-currently-selected-object)
 * [How to test if an element is in the viewport?](https://gomakethings.com/how-to-test-if-an-element-is-in-the-viewport-with-vanilla-javascript/)
 * [How to detect when a visitor has stopped scrolling?](https://gomakethings.com/detecting-when-a-visitor-has-stopped-scrolling-with-vanilla-javascript/)
+* [getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
+* [scrollTo()](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
 * [=> vs function](https://medium.com/the-non-traditional-developer/arrow-functions-vs-traditional-functions-in-javascript-8ff1a48ede12)
 * [Functions - Understanding the Basics](https://codeburst.io/javascript-functions-understanding-the-basics-207dbf42ed99)
 * [Common beginner's mistakes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Howto)
