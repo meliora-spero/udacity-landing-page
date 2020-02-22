@@ -17,6 +17,7 @@ To complete the project it was required to modify mainly the ```js/app.js``` fil
 * [Document Object Model (DOM)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) & [Document](https://developer.mozilla.org/en-US/docs/Web/API/Document)
 * [Understanding the DOM Tree and Nodes](https://www.digitalocean.com/community/tutorials/understanding-the-dom-tree-and-nodes)
 * Accessing the DOM: [querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector), [querySelectorAll()](https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll), getElementbyId(), getElementsByClassName(), etc.
+* [HTMLCollection vs NodeList](https://medium.com/@layne_celeste/htmlcollection-vs-nodelist-4b83e3a4fb4b)
 * [Introduction to browser events](https://javascript.info/introduction-browser-events)
 * [addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 * [getBoundingClientRect()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
@@ -29,7 +30,7 @@ To complete the project it was required to modify mainly the ```js/app.js``` fil
 * [How to get all siblings of an element?](https://stackoverflow.com/questions/4378784/how-to-find-all-siblings-of-currently-selected-object)
 * [How to test if an element is in the viewport?](https://gomakethings.com/how-to-test-if-an-element-is-in-the-viewport-with-vanilla-javascript/)
 * [How to detect when a visitor has stopped scrolling?](https://gomakethings.com/detecting-when-a-visitor-has-stopped-scrolling-with-vanilla-javascript/)
-* [=> vs. function](https://medium.com/the-non-traditional-developer/arrow-functions-vs-traditional-functions-in-javascript-8ff1a48ede12)
+* [=> vs function](https://medium.com/the-non-traditional-developer/arrow-functions-vs-traditional-functions-in-javascript-8ff1a48ede12)
 * [Common beginner's mistakes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Howto)
 * [Clean Code](https://github.com/ryanmcdermott/clean-code-javascript)
 * [A FEW PRINCIPLES OF CLEAN CODE](https://x-team.com/blog/principles-clean-code/)
