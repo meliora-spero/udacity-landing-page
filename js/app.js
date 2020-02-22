@@ -23,7 +23,7 @@ for (let i = 0; i < nodeList.length; i++) {
 const menuLink = document.querySelectorAll('li a');
 for (let i = 0; i < menuLink.length; i++) {
   menuLink[i].classList.add('menu__link')
-  menuLink[i].setAttribute('id', 'section' + [i+1]);
+  menuLink[i].setAttribute('id', 'section' + [i + 1]);
 }
 
 for (let i = 0; i < nodeList.length; i++) {
