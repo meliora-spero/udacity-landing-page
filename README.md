@@ -40,7 +40,6 @@ To complete the project it was required to modify mainly the ```js/app.js``` fil
 * [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/)
 * [README Renderer](https://www.makeareadme.com/)
 * [A curated list of awesome READMEs](https://github.com/matiassingers/awesome-readme)
-* [IntersectionObserver](https://www.smashingmagazine.com/2018/01/deferring-lazy-loading-intersection-observer-api/)
 
 ## Details 
 
