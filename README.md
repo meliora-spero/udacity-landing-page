@@ -35,7 +35,7 @@ To complete the project it was required to modify mainly the ```js/app.js``` fil
 * [Functions - Understanding the Basics](https://codeburst.io/javascript-functions-understanding-the-basics-207dbf42ed99)
 * [Common beginner's mistakes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Howto)
 * [Clean Code](https://github.com/ryanmcdermott/clean-code-javascript)
-* [A FEW PRINCIPLES OF CLEAN CODE](https://x-team.com/blog/principles-clean-code/)
+* [A few principles of clean code](https://x-team.com/blog/principles-clean-code/)
 * [Udacity JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 * [Udacity Git Commit Message Style Guide](https://udacity.github.io/git-styleguide/)
 * [README Renderer](https://www.makeareadme.com/)
