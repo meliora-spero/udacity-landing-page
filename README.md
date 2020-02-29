@@ -1,6 +1,8 @@
 # Landing Page
 
-Udacity's second project for the Front End Developer Nanodegree Program.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/265ed584-60b2-41c9-a3e6-f0de705a2ddc/deploy-status)](https://app.netlify.com/sites/udacity-landing-page-project/deploys)
+
+Udacity's [second project](https://udacity-landing-page-project.netlify.com/) for the Front End Developer Nanodegree Program.
 
 ## Files
 
